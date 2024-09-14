@@ -30,7 +30,7 @@ const Dofa = () => {
       <h2 className="text-xl font-bold text-center">Diagnóstico Actual (DOFA)</h2>
       <div className="grid grid-cols-2 gap-4 mt-4">
         {dofaData.map((section) => (
-          <div key={section.id} className="border-black border-2 p-4">
+          <div key={section.id} className="border-black border-2 p-4 bg-gray-700 text-white transform hover:scale-105 transition duration-300">
             <h3 className="font-bold">{section.type}</h3>
             <ul className="list-disc list-inside">
               {section.items.map((item) => (
