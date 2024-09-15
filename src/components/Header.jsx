@@ -10,10 +10,10 @@ const Header = () => {
 
         {/* Menú de navegación (opcional para más adelante) */}
         <nav className="hidden md:flex space-x-4">
-          <a href="#introduccion" className="hover:bg-custom-gray transition ease-in-out duration-300 px-1 rounded">Introducción</a>
-          <a href="#dofa" className="hover:bg-custom-gray transition ease-in-out duration-300 px-1 rounded">DOFA</a>
-          <a href="#objetivos" className="hover:bg-custom-gray transition ease-in-out duration-300 px-1 rounded">Objetivos</a>
-          <a href="#contacto" className="hover:bg-custom-gray transition ease-in-out duration-300 px-1 rounded">Contacto</a>
+          <a href="#INTRO" className="hover:bg-custom-gray transition ease-in-out duration-300 px-1 rounded">Introducción</a>
+          <a href="#DOFA" className="hover:bg-custom-gray transition ease-in-out duration-300 px-1 rounded">DOFA</a>
+          <a href="#OBJETIVOS" className="hover:bg-custom-gray transition ease-in-out duration-300 px-1 rounded">Objetivos</a>
+          <a href="#" className="hover:bg-custom-gray transition ease-in-out duration-300 px-1 rounded">Contacto</a>
         </nav>
         
       </div>

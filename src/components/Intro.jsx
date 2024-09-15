@@ -4,7 +4,7 @@ import React from "react";
 const Introduction = () => {
   return (
     <section
-      id="introduction"
+      id="INTRO"
       className="bg-white p-6 text-center border-b border-gray-200"
     >
       <h2 className="text-2xl font-bold mb-4">Introducción</h2>
